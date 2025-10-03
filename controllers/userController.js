@@ -1,4 +1,3 @@
-// Import required modules
 import fs from "fs/promises"; // to read and write files (JSON file)
 import path from "path"; // to work with file paths
 import { fileURLToPath } from "url"; // to get current file path
