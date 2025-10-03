@@ -26,7 +26,7 @@ async function writeUsers(users) {
   await fs.writeFile(dataFile, JSON.stringify(users, null, 2));
 }
 
-// GET all users
+// get all users
 export async function getAllUsers(req, res) {
   const users = await readUsers(); // get all users
   res.json(users); // send users back as JSON
